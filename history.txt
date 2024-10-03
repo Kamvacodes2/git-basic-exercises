@@ -1,0 +1,50 @@
+git commit -m"initial commit"
+git log
+q
+notepad README.md
+type README.md
+git status
+git add README.md
+git commit -m"second commit"
+notepad README.md
+type README.md
+git add README.md
+git commit -m"third commit"
+git log
+q
+git checkout
+74100483af4d1306b3aa029782bbe07398ab9eac
+git checkout 74100483af4d1306b3aa029782bbe07398ab9eac
+type README.md
+git checkout main
+git branch
+git checkout master
+type README.md
+git log
+git checkout 9c3f123de1f7d7b1910d4216863089da44b539af
+type README.md
+git checkout master
+type README.md
+git branch
+git checkout milkshake-flavours
+git checkout -b milkshake-flavours
+git branch
+git checkout
+git checkout master
+git branch
+git checkout  milkshake-flavours
+git branch
+notepad milkshakes.md
+git status
+git add milkshakes.md
+git commit -m"added initial flavours"
+git log
+git checkout master
+git branch
+git checkout -b history
+git log
+git branch
+history > history.txt
+Get History | Out-File history.txt
+Get-History | Out-File history.txt
+doskey /h > history.txt
